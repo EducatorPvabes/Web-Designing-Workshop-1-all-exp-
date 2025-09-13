@@ -1,0 +1,49 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Block Example */
+.block-menu a {
+  display: block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  text-decoration: none;
+}
+
+/* Inline Example */
+.inline-menu a {
+  display: inline;
+  background-color: #2ecc71;
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+/* Inline-Block Example */
+.inline-block-menu a {
+  display: inline-block;
+  background-color: #9b59b6;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+/* Float Example */
+.float-menu a {
+  float: left;
+  background-color: #e67e22;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}

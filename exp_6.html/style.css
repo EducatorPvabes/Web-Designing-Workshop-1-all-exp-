@@ -1,0 +1,71 @@
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Product Card */
+.product-card {
+  background-color: white;
+  width: 350px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Product Image */
+.product-img {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+
+/* Title & Description */
+.product-title {
+  color: #2c3e50;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.product-desc {
+  color: #555;
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+/* Price */
+.product-price {
+  color: #e74c3c;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+/* Buttons */
+.btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+.buy {
+  background-color: #27ae60;
+}
+
+.buy:hover {
+  background-color: #1e8449;
+}
