@@ -1,0 +1,72 @@
+  /* ===========================
+   BASIC E-COMMERCE PAGE STYLING
+   =========================== */
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;  /* Font style */
+    background-color: #acaca0;     /* Page background color */
+    text-align: center;              /* Center text on page */
+    margin: 20px;                    /* Space around body */
+}
+
+/* Heading styling */
+h1 {
+    color: black;                    /* Text color */
+    margin-bottom: 30px;    /* Space below heading */
+}
+
+/* Product Box styling */
+.product-box {
+    background-color: white;         /* White background */
+    width: 300px;                    /* Box width */
+    margin: 0 auto;   /* Center the box horizontally */
+    /* When you write margin: auto, the browser automatically calculates equal left and right spaces
+— this pushes the element to the center horizontally. */
+    padding: 15px;                   /* Inner spacing inside box */
+    border: 2px solid gray;          /* Border around the box */
+    border-radius: 8px;              /* Rounded corners */
+}
+
+/* Product Image styling */
+.product-box img {
+    width: 100%;         /* Image takes full box width */
+    height: auto;        /* Keep image proportion */
+    border-radius: 5px;          /* Slightly rounded image corners */
+}
+
+/* Product Title */
+.product-box h2 {
+    color: black;                    /* Text color */
+    font-size: 20px;                 /* Font size */
+    margin-top: 10px;                /* Space above title */
+}
+
+/* Product Description */
+.description {
+    color: dimgray;                  /* Gray text */
+    font-size: 14px;                 /* Small readable text */
+    margin: 10px 0;                  /* Space above and below */
+}
+
+/* Product Price */
+.price {
+    color: red;                      /* Red price text */
+    font-weight: bold;               /* Bold text */
+    margin-bottom: 15px;             /* Space below price */
+}
+
+/* Button Styling */
+button {
+    background-color: blue;          /* Blue button */
+    color: white;                    /* White text */
+    padding: 10px 20px;  
+      /* Inner space (top-bottom, left-right) */
+    border: none;                    /* No border */
+    border-radius: 5px;              /* Rounded button corners */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: darkblue;      /* Darker blue on hover */
+}
