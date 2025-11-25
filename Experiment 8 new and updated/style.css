@@ -1,0 +1,49 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 20px;
+}
+
+
+
+.container {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;     /* Centers the cards horizontally */
+  align-items: center;         /* Aligns them vertically (if height given) */
+  flex-direction: row;         /* Aligns cards in a row */
+  gap: 40px;                   /* Space between cards */
+  padding: 40px;
+  margin: 20px;
+}
+
+.card {
+  background-color: white;
+  width: 220px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border: 2px solid #007bff;
+
+}
+
+.circle {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  margin: 0 auto 15px;
+}
+
+h3 {
+  margin-bottom: 5px;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 14px;
+}
