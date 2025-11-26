@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Font Size Example</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        h1 { 
+            font-size: 40px; /* Desktop default */
+            color: #333;
+            transition: 0.3s;
+        }
+
+        /* Tablets */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 30px;
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Responsive Text Demo</h1>
+    <p>Resize the browser or open this page on different devices to see the H1 size change.</p>
+
+</body>
+</html>
